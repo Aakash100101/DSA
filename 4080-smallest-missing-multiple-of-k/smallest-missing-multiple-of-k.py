@@ -4,7 +4,7 @@ class Solution:
         for num in nums:
             seen.add(num)
 
-        for i in range(1,len(nums)*100):
+        for i in range(1,len(nums)*90):
             if i*k not in seen:
                 return i*k   
 
